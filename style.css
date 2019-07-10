@@ -1,0 +1,63 @@
+/* 
+Theme Name: PlayGround
+Author: Tiago Neves
+Author URI: http://wordpress.org/
+Description: This theme was created to do something
+Version: 1.0
+*/
+
+
+body {
+    font-family:arial;
+     
+}
+
+h1{
+    color: white;
+}
+
+h2{     
+    color:#2f73af;
+}
+
+a{
+   text-decoration: none;
+   color: black;
+
+}
+
+.column {
+	padding: 0 1em;
+	max-width:100%;
+}
+
+.row{
+    display:flex;
+    max-width:1140px;
+    margin:auto;
+}
+
+.row-fullWidth {
+    max-width:100%;
+  }
+
+.bar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+  
+.bar-center{
+  justify-content: center;
+}
+
+.bar > * {
+    padding: 0 10px;
+}
+
+.bg-dark{
+    background: black;
+}
